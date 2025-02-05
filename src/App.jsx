@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client/+esm";
+import { Client } from "@gradio/client";
 import { Sparkles, Volume2 } from "lucide-react";
 import { BeatLoader } from "react-spinners";
 
