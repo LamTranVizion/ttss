@@ -5,10 +5,9 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   base: '/ttss/',
-  outDir: 'dist',
   build: {
     rollupOptions:{
-      external: ['@gradio/client'],
+      external: ['https://cdn.jsdelivr.net/npm/@gradio/client/+esm'],
     },
   }
 })
